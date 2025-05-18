@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+    <div class="container">
+    <div class="calculator">
+        <h1>Calculater</h1>
+        <div class="display" id='display'>0</div>
+        <div class="button">
+            <button class="b" onclick="clearDisplay('AC')">AC</button>
+            <button class="d" onclick="deleteLast('C')">C</button>
+            <button class="t" onclick="appendCharacter('%')">%</button>
+            <button class="t" onclick="appendCharacter('/')">/</button>
+            <button class="btn" onclick="appendCharacter('7')">7</button>
+            <button class="btn" onclick="appendCharacter('8')">8</button>
+            <button class="btn" onclick="appendCharacter('9')">9</button>
+            <button class="t" onclick="appendCharacter('')"></button>
+            <button class="btn" onclick="appendCharacter('4')">4</button>
+            <button class="btn" onclick="appendCharacter('5')">5</button>
+            <button class="btn" onclick="appendCharacter('6')">6</button>
+            <button class="t" onclick="appendCharacter('-')">-</button>
+            <button class="btn" onclick="appendCharacter('1')">1</button>
+            <button class="btn" onclick="appendCharacter('2')">2</button>
+            <button class="btn" onclick="appendCharacter('3')">3</button>
+            <button class="t" onclick="appendCharacter('+')">+</button>
+            <button class="btn" onclick="appendCharacter('0')">0</button>
+            <button class="btn" onclick="appendCharacter('00')">00</button>
+            <button class="btn" onclick="appendCharacter('.')">.</button>
+            <button class="n" onclick="calculateResult('=')">=</button>
+
+        </div>
+    </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Calculator</title>
+   <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   <div id="calc">
+      <div id="content">
+         <form>
+            <div id="output">
+               <input type="text" id="res" readonly>
+            </div>
+            <div class="btn">
+               <input type="button" value="C" id="clear">
+               <input type="button" value="←" id="backspace">
+               <input type="button" value="%" >
+               <input type="button" value="/" >
+               <br>
+               <input type="button" value="7" >
+               <input type="button" value="8" >
+               <input type="button" value="9" >
+               <input type="button" value="x" >
+               <br>
+               <input type="button" value="4" >
+               <input type="button" value="5" >
+               <input type="button" value="6" >
+               <input type="button" value="-" >
+               <br>
+               <input type="button" value="1" >
+               <input type="button" value="2" >
+               <input type="button" value="3" >
+               <input type="button" value="+" >
+               <br>
+               <input type="button" value="00" >
+               <input type="button" value="0" >
+               <input type="button" value="." >
+               <input type="button" value="=" >
+            </div>
+         </form>
+      </div>
+   </div>
+   <script src="calculator.js"></script>
+</body>
+</html> -->
